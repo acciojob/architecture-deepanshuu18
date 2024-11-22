@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content {
+            width: 1100px;
+            padding: 20px;
+        }
+
+        /* Table structure styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        /* Specific column widths */
+        .column1, .column3 {
+            width: 200px;
+        }
+
+        .column2 {
+            width: 600px;
+        }
+
+        /* Image styling */
+        .imageContainer img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        /* Additional styling */
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+        }
